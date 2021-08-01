@@ -54,3 +54,13 @@ body {
       height: 550px;
       background: #000;
   }
+  .wrapper{
+    border: 1px solid #ddd;
+    display: flex;
+  }
+  .card{
+    height: 300px;
+    width: 200px;
+    background-color:var(--main-bg-color);
+    margin: 0 10%;
+  }
