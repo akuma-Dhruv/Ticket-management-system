@@ -1,3 +1,4 @@
+/*general styles */
 :root {
     --main-bg-color:#5c0d07;
     --main-text-color:white ;
@@ -9,6 +10,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
+.text{
+  text-align: center;
+  
+}
+
   /* navbar */
   .topnav {
     overflow: hidden;
