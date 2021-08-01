@@ -9,9 +9,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  /* navbar */
   .topnav {
     overflow: hidden;
     background-color: var(--main-bg-color);
+    height: 70px;
   }
   
   .topnav a {
@@ -37,4 +39,12 @@ body {
   .topnav a.active {
     background-color:var(--main-active-bg-color);
     color: white;
+  }
+
+  /* navbar end */
+ 
+  /* cta */
+  .cta{
+      height: 550px;
+      background: #000;
   }
