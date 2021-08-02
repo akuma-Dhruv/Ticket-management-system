@@ -60,23 +60,25 @@ body {
   padding: 1%;
   overflow-x: auto;
   margin-bottom: 5%;
-
 }
-.wrapper::-webkit-scrollbar{
+.wrapper::-webkit-scrollbar {
   width: 0px;
 }
 .card {
   height: 300px;
   width: 200px;
   min-width: 200px;
-  background-color: var(--main-bg-color);
+  background-color: #fefff9;
   margin: 0 10%;
   border-radius: 5%;
+  text-align: center;
+  border: 0px solid;
+  box-shadow: 5px 7px 10px;
 }
 .scrollButton {
   height: 300px;
   width: 30px;
-  
+
   text-align: center;
   justify-content: center;
   background-color: #ffffff00;
@@ -84,12 +86,17 @@ body {
   font-size: 2rem;
   border-radius: 2%;
 }
-.scrollButton:hover{
+.scrollButton:hover {
   background-color: #dbdbdbe0;
 }
-.scrollButton.left{
+.scrollButton.left {
   float: left;
 }
-.scrollButton.right{
+.scrollButton.right {
   float: right;
+}
+.cardImg {
+  width: 85px;
+  height: 110px;
+  margin: 12% 0 0 0;
 }
