@@ -58,11 +58,17 @@ body {
   border: 1px solid #ddd;
   display: flex;
   padding: 1%;
+  overflow-x: auto;
   margin-bottom: 5%;
+
+}
+.wrapper::-webkit-scrollbar{
+  width: 0px;
 }
 .card {
   height: 300px;
   width: 200px;
+  min-width: 200px;
   background-color: var(--main-bg-color);
   margin: 0 10%;
   border-radius: 5%;
@@ -70,6 +76,7 @@ body {
 .scrollButton {
   height: 300px;
   width: 30px;
+  
   text-align: center;
   justify-content: center;
   background-color: #ffffff00;
@@ -79,4 +86,10 @@ body {
 }
 .scrollButton:hover{
   background-color: #dbdbdbe0;
+}
+.scrollButton.left{
+  float: left;
+}
+.scrollButton.right{
+  float: right;
 }
