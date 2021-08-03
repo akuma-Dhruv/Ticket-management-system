@@ -76,6 +76,7 @@ h1{
 .form__button{
   display: block;
   margin-left: 30%;
+  margin-bottom: 10%;
   padding: .75rem 2rem;
   outline: none;
   border: none;

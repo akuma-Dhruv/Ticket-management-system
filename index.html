@@ -13,8 +13,10 @@
     <!-- navbar -->
     <div class="topnav">
         <div class="logo">TMS</div>
-        <a href="#about">About</a>
-        <a class='active' href="/Ticket-management-system/pages/login.html">Login</a>
+        <a  href="/Ticket-management-system/pages/login.html" onclick="active(id)">Login</a>
+        <a href="#about" onclick="active(id)" id="about">About</a>
+        <a href="" id='home' class ='active'>Home</a>
+
     </div>
     <!-- cta -->
     <div class="cta"></div>
@@ -23,6 +25,7 @@
 
     <div class="UE">
         <div class="text">
+            <a href="" style="position: absolute; right: 12px;">See more</a>
             <h1>
                 Upcoming Events
             </h1>
@@ -48,6 +51,7 @@
     <hr>
     <div class="TG">
         <div class="text">
+            <a href="" style="position: absolute; right: 12px;">See more</a>
             <h1>
                 Try Some Games
             </h1>
@@ -86,6 +90,7 @@
 <!-- footer -->
 <div class="footer"><h1>About goes here
 </h1></div>
+<script src="script/script.js"></script>
 </body>
 
 </html>

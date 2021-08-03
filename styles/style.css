@@ -37,7 +37,7 @@ body {
   color: var(--main-text-color);
 }
 .topnav a:hover {
-  background-color: black;
+  background-color: var(--main-active-bg-color);
   color: #ddd;
 }
 
