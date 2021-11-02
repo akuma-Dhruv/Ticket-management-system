@@ -1,8 +1,43 @@
-<form action="" method="post">
-    <label for="Full Name">Name</label>                  
-    <input type="text" name="Name" id="name">
+<!DOCTYPE html>
+<html lang="en">
 
-    <label for="Email">Email</label>                  
-    <input type="email" name="email" id="email">
-    
-</form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMS || Login</title>
+    <link rel="stylesheet" href="/styles/login-style.css">
+    <!-- <link rel="stylesheet" href="/Ticket-management-system/styles/login-style.css"> -->
+</head>
+<body>
+    <div class="login__form">
+
+        <form action="" class="form">
+            <h1 class="form_title">Sign up</h1>
+            <div class="form__input">
+                <input type="text" class="input" name="Name" placeholder="Name">
+                <label for="username" class="form__label">Name</label>
+            </div>
+            <div class="form__input">
+                <input type="text" class="input" name="username" placeholder="Username">
+                <label for="username" class="form__label">Username</label>
+            </div>
+            <div class="form__input">
+                <input type="text" class="input" name="email" placeholder="Email">
+                <label for="email" class="form__label">Email</label>
+            </div>
+            <div class="form__input">
+                <input type="password" class="input" name="password" placeholder="Password">
+                <label for="password" class="form__label">Password</label>
+            </div>
+            <div class="form__input">
+                <input type="password" class="input" name="password" placeholder="Confirm Password">
+                <label for="password" class="form__label"> Confirm Password</label>
+            </div>
+            <button type="submit" class='form__button'>Sign up</button>
+            <a href="login.html">Or Login to existing account</a>
+        </form>
+    </div>
+
+</body>
+</html>
